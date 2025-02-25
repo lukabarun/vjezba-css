@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    div.fixed {
+        position: fixed;
+        bottom: 3px;
+        right: 3px;
+        width: 300px;
+        border: 3px solid #73AD21;
+        background-color: aqua;
+        margin-left: 900px;
+        margin-top: 900px;
+        height: 100px;
+    }
+    div.static {
+        position: static;
+        border: 3px solid #73AD21;
+        background-color: yellow;
+        margin-left: 200px;
+        width: 600px;
+        height: 600px;
+    }
+    div.relative {
+        position: relative;
+  left: 30px;
+  border: 3px solid #1bc7aa;
+  background-color: green;
+  height: 450px;
+  width: 500px;
+margin-left: 300px;
+  bottom: 400px; }
+
+  div.sticky {
+    position: sticky;
+    
+    padding: 20px;
+    height: 350px;
+    width: 400px;
+margin-left: 500px;
+bottom: 5px;
+
+    background-color: #cae8ca;
+    border: 2px solid #4caf50;
+  }
+    
+    </style>
+    <body>
+    <div class="fixed">
+        DIV1 fixed
+    </div>
+    <div class="static">
+        DIV2 static
+        </div>
+        <div class="relative">
+            DIV3 relative
+            </div>
+            <div class="sticky">
+                DIV4 sticky
+            </div>
+</body>
+</html>
